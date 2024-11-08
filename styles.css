@@ -1,0 +1,64 @@
+:root {
+  --primary-color: red;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: blue;
+}
+
+.box {
+  border-radius: 8px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: purple;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 2px;
+  margin-bottom: 10px;
+}
+
+.item {
+  border-radius: 4px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: green;
+  padding: 10px;
+}
+
+.nav {
+  background-color: gray;
+  padding: 10px;
+}
+.nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav > ul > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+.nav > ul > li > a:hover {
+  text-decoration: underline;
+  color: blueviolet;
+}
+
+.light-theme {
+  background-color: yellow;
+  color: green;
+}
+
+.dark-theme {
+  background-color: green;
+  color: yellowgreen;
+}/*# sourceMappingURL=styles.css.map */
